@@ -77,5 +77,5 @@ This section describes how to install the plugin and get it working.
 Rene Hermenau
 
 "I create useful free microsites!"
-[uncertain](http://www.free-qr-code.net "Free qr code online generator")
+(http://www.free-qr-code.net "Free qr code online generator")
 
