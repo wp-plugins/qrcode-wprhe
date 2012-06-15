@@ -30,16 +30,13 @@ How to use it:
 * It´s not neccessary to give any parameters!
 
 * If you don´t give any optional parameters, the standard parameters are:
-    alt = "free qr code by free-qr-code.net"
-    size = 80
-    class=""
+
+- alt = "free qr code by free-qr-code.net"
+- size = 80
+- class=""
  
-* See http://www.free-qr-code.net/qr-code-wordpress-plugin.html for more info
 
-* I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
-
-Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and 
-for a easy useable qr code online generator
+Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code online generator
 
 == Changelog ==
 
@@ -60,11 +57,15 @@ This section describes how to install the plugin and get it working.
 
 4. DONE
 
+* I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
+
 == Frequently Asked Questions ==
 
 
 
-- This plugins makes use of the Google Chart Tools https://developers.google.com/chart/
+* This plugins makes use of the Google Chart Tools https://developers.google.com/chart/
+
+* I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
 
 
 == Screenshots ==
