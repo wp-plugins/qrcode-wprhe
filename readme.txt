@@ -1,7 +1,7 @@
 ﻿=== QR code generator ===
 Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
-Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode
+Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links
 Requires at least: 2.0.2
 Tested up to: 3.3.2
 Stable tag: 1.0
