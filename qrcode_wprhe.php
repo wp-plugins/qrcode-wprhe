@@ -18,7 +18,7 @@ How to use it:
  
  * It´s not neccessary to give any parameters! 
  * If you don´t give any parameter like 'alt' or 'size', the standard parameters are:
-    alt = "free qr code by free-qr-code.net"
+    alt = ""
     size = 80
     class=""
   
@@ -50,7 +50,7 @@ How to use it:
 	
 	
 	if (empty($alt) && $alt !==0) {
-	  $alt="free qr code by free-qr-code.net";
+	  $alt="";
 	} else {
 	  $alt = strip_tags(trim($alt));
         }
