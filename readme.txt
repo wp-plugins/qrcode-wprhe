@@ -55,7 +55,7 @@ This section describes how to install the plugin and get it working.
 3. Activate the plugin through the 'Plugins' menu in WordPress
 
 
-4. DONE
+4. Done
 
 * I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
 
