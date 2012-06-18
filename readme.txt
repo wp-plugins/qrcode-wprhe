@@ -31,7 +31,7 @@ How to use it:
 
 * If you don´t give any optional parameters, the standard parameters are:
 
-- alt = "free qr code by free-qr-code.net"
+- alt = ""
 - size = 80
 - class=""
  
