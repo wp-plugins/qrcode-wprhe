@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Wordpress plugin to insert a QR code in your blog. The qr code contains current URL or any other text you like.
+Wordpress plugin to insert a QR code in your blog. The qr code contains the current URL or any other text you like.
 
 
 == Description ==
