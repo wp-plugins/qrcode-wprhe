@@ -1,7 +1,7 @@
 ﻿=== QR code generator ===
 Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
-Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links
+Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images 
 Requires at least: 2.0.2
 Tested up to: 3.3.2
 Stable tag: 1.0
@@ -30,7 +30,6 @@ How to use it:
 * It´s not neccessary to give any parameters!
 
 * If you don´t give any optional parameters, the standard parameters are:
-
 - alt = ""
 - size = 80
 - class=""
@@ -53,8 +52,6 @@ This section describes how to install the plugin and get it working.
 1. Unzip the file qrcode_wprhe.zip 
 2. Upload `qrcode_wprhe.php` to the directory `/wp-content/plugins/qrcode_wprhe/`
 3. Activate the plugin through the 'Plugins' menu in WordPress
-
-
 4. Done
 
 * I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
