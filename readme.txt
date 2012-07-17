@@ -15,7 +15,7 @@ Wordpress plugin to insert a QR code in your blog. The qr code contains the curr
 
 
 
-Use this plugin to create a qr code on any site of your Wordpress installation. Content can be any text or the current URL of the site where it is embeded.
+Use this qr code wordpress plugin to create a qr code on any site of your Wordpress installation. Content can be any text or the current URL of the site where it is embeded.
 
 
 
