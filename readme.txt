@@ -3,8 +3,8 @@ Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
 Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images 
 Requires at least: 2.0.2
-Tested up to: 3.3.2
-Stable tag: 1.0
+Tested up to: 3.4.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,11 @@ Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.
 = 1.0 =
 
 * First stable version of the qr code generator plugin
+
+
+= 1.1 =
+
+* Tested up to Wordpress 3.4.2
 
 
 == Installation ==
