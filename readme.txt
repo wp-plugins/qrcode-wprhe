@@ -1,7 +1,7 @@
 ﻿=== QR code generator ===
 Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
-Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images 
+Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
 Requires at least: 2.0.2
 Tested up to: 3.5
 Stable tag: 1.1
@@ -33,9 +33,11 @@ How to use it:
 - alt = ""
 - size = 80
 - class=""
- 
 
-Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code online generator
+
+Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code online generator.
+
+Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-generator24.com") for a QR Code Generator with free tracking and scan statistics.
 
 == Changelog ==
 
