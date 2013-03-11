@@ -1,7 +1,9 @@
-﻿=== QR code generator ===
+=== QR code generator ===
 Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
-Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
+Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, 
+
+plugin, admin, posts, images, kaywa, visual qr code, color qr code 
 Requires at least: 2.0.2
 Tested up to: 3.5
 Stable tag: 1.2
@@ -15,7 +17,9 @@ QR Code Wordpress plugin to insert a QR code in your blog. The qr code contains 
 
 
 
-Use this qr code wordpress plugin to create a qr code on any site of your Wordpress installation. Content can be any text or the current URL of the site where it is embeded.
+Use this qr code wordpress plugin to create a qr code on any site of your Wordpress installation. Content can be any text or the current URL of the site where it 
+
+is embeded.
 
 
 
@@ -35,10 +39,14 @@ How to use it:
 - class=""
 - credit = true
 
-* The credit option gives a really small but nice looking image link on bottom of the qrcode. If you don´t like it or don´t want to give me any credits you can deactivate it with 'credit = false'. But i will be glad if you let that small link where it is :D'
+* The credit option gives a really small but nice looking image link on bottom of the qrcode. If you don´t like it or don´t want to give me any credits you can 
+
+deactivate it with 'credit = false'. But i will be glad if you let that small link where it is :D'
 
 
-Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code online generator.
+Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code 
+
+online generator.
 
 Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-generator") for a QR Code Generator with free tracking and scan statistics.
 
@@ -47,7 +55,9 @@ Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-gene
 
 = 1.2 =
 
-* Tested up to Wordpress 3.5.1 | Put a nice looking powered by image link | You can deactive that link if you do not want to give any credit or do not like it. But i would be glad if you let it where it is or give me a backlink on any other page of your website.
+* Tested up to Wordpress 3.5.1 | Put a nice looking powered by image link | You can deactive that link if you do not want to give any credit or do not like it. But 
+
+i would be glad if you let it where it is or give me a backlink on any other page of your website.
 
 = 1.1 =
 
