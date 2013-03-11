@@ -3,7 +3,7 @@
 
 Plugin Name: qrcode_wprhe
 Plugin URI: http://www.free-qr-code.net/qr-code-wordpress-plugin.html
-Version: 1.0
+Version: 1.2
 Author: Rene Hermenau
 Author URI: http://www.free-qr-code.net
 Description: qrcode wordpress plugin to generate individual and URL relating qr codes within your wordpress articles
@@ -11,17 +11,19 @@ Description: qrcode wordpress plugin to generate individual and URL relating qr 
 
 How to use it:
 
- * Use the shortcode [qrcode] within your content to generate the current URL of the site where the shortcode is embeded.
+ * Use the shortcode [qrcode] within your content to generate the current URL
   
- * Use the shortcode [qrcode content="CONTENT" size="80" alt="ALT_TEXT" align="ALIGN" class="CLASS_NAME"] to generate a indivdual qr code with the content of CONTENT, 
-   the SIZE in pixels e.g. 80, the ALT_TEXT, the CLASS_NAME you want to use and the optional ALIGN tag, which can be "right" or "left"
+ * Use the shortcode [qrcode content="CONTENT" size="80" alt="ALT_TEXT" class="CLASS_NAME"] to generate a indivdual qr code with the content of CONTENT, 
+   the SIZE in pixels e.g. 80, the ALT_TEXT and the CLASS_NAME you want to use
  
- * It´s not neccessary to give any parameters! 
- * If you don´t give any parameter like 'alt' or 'size', the standard parameters are:
-    alt = ""
-    size = 80
+ * It`s not neccessary to give any parameters!
+ * If you don`t give any parameter like 'alt' or 'size', the standard parameters are:
+    alt = "free qr code by free-qr-code.net"
+    size = 120
     class=""
-  
+    credit = true 
+
+* The credit option gives a really small but nice looking image link on bottom of the qrcode. If you donÂ´t like it or donÂ´t want to give me any credits you can deactivate it with 'credit = false'. But i will be glad if you let that small link where it is :D'
  
 * See http://www.free-qr-code.net/qr-code-wordpress-plugin.html for more info
 * I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
@@ -36,7 +38,8 @@ How to use it:
                 'alt' => '',
                 'size' => '',
                 'align' => '',
-				'class' => ''
+		'class' => '',
+                'credit' => ''
                     ), $atts));
 
     $current_uri = 'http://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI] . '';
@@ -50,13 +53,13 @@ How to use it:
 	
 	
 	if (empty($alt) && $alt !==0) {
-	  $alt="";
+	  $alt="free qr code by free-qr-code.net";
 	} else {
 	  $alt = strip_tags(trim($alt));
         }
         
         if (empty($size) && $size !==0) {
-	  $size = "80";
+	  $size = "120";
 	} else {
 	  $size = strip_tags(trim($size));
 	}
@@ -72,6 +75,12 @@ How to use it:
 	} else {
 	  $class = strip_tags(trim($class));
 	}
+        
+        if (empty($credit) && $credit !=='false' || $credit == 'true') {
+	  $credit_footer='<div style="line-height:10px;width:100px;background-image: url(' . plugins_url( $path, $plugin ) . '/qrcode_wprhe/powered-by.png);background-repeat:no-repeat;"><a href="http://www.free-qr-code.net" title="QR Code Generator by free-qrcode.net" target="blank" style="display:block;text-indent:-9999px;">Qr Code Generator</a></div>';
+	} else {
+	  $credit_footer = "";
+        }
 	   
     $output = "";
     $image = 'https://chart.googleapis.com/chart?chs=' . $size . 'x' . $size . '&cht=qr&chld=H|0&chl=' . $content;
@@ -85,11 +94,23 @@ How to use it:
         $class = ' class="' . $class . '"';
     }
 
-    $output = '<img src="' . $image . '" alt="' . $alt . '" width="' . $size . '" height="' . $size . '"' . $align . $class . ' />';
+    $output = '<img id="qr_code_generator_wprhe" src="' . $image . '" alt="' . $alt . '" width="' . $size . '" height="' . $size . '"' . $align . $class . ' />';
+    
 	
-    return $output;
+    return $output . $credit_footer;
   }
 
+  /* check if its necessary to embed js or css file into wp_head*/
+add_action('wp_print_styles', 'add_my_styles', 100);
+function add_my_styles() {
+wp_register_style( 'wprhe_style', '/wprhe_qrcode_style.css');
+wp_enqueue_style( 'wprhe_style' );
+}
+add_action('init', 'add_my_styles');
+  
+  /* Add the style */
+  add_action( 'wp_print_styles', 'wp_enqueue_style' );
+  
 /* Add the Shortcode */
   add_shortcode('qrcode', 'qrcode_wprhe_shortcode');
 
