@@ -3,7 +3,7 @@
 
 Plugin Name: qrcode_wprhe
 Plugin URI: http://www.free-qr-code.net/qr-code-wordpress-plugin.html
-Version: 1.2
+Version: 1.2.1
 Author: Rene Hermenau
 Author URI: http://www.free-qr-code.net
 Description: qrcode wordpress plugin to generate individual and URL relating qr codes within your wordpress articles
@@ -53,7 +53,7 @@ How to use it:
 	
 	
 	if (empty($alt) && $alt !==0) {
-	  $alt="free qr code by free-qr-code.net";
+	  $alt="QR Code Generator by free-qr-code.net";
 	} else {
 	  $alt = strip_tags(trim($alt));
         }
@@ -77,7 +77,7 @@ How to use it:
 	}
         
         if (empty($credit) && $credit !=='false' || $credit == 'true') {
-	  $credit_footer='<div style="line-height:10px;width:100px;background-image: url(' . plugins_url( $path, $plugin ) . '/qrcode_wprhe/powered-by.png);background-repeat:no-repeat;"><a href="http://www.free-qr-code.net" title="QR Code Generator by free-qrcode.net" target="blank" style="display:block;text-indent:-9999px;">Qr Code Generator</a></div>';
+	  $credit_footer='<div style="line-height:10px;width:100px;"><a href="http://www.free-qr-code.net" title="QR Code Generator by free-qrcode.net" target="blank" style="display:block;"><img src="' . plugins_url( $path, $plugin ) . '/qrcode-wprhe/powered-by.png" border="0" title="QR Code Generator by free-qr-code.net" alt="QR Code Generator"></a></div>';
 	} else {
 	  $credit_footer = "";
         }
