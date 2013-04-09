@@ -4,7 +4,7 @@ Donate link: http://www.free-qr-code.net
 Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
 Requires at least: 2.0.2
 Tested up to: 3.5
-Stable tag: 1.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,13 +27,16 @@ How to use it:
 
   [qrcode content="CONTENT" size="120" alt="ALT_TEXT" class="CLASS_NAME"] 
  
-* It´s not neccessary to give any parameters!
-
-* If you don´t give any optional parameters, the standard parameters are:
-- alt = ""
-- size = 120
-- class=""
-- credit = true
+ * It`s not neccessary to give any parameters!
+   
+ * Possible parameters are: alt, size, class, credit, shadow 
+ 
+ * If you don`t give any parameter like 'alt' or 'size', the standard parameters are:
+    alt = "Scan the QR Code"
+    size = 120
+    class=""
+    credit = true
+    shadow = true
 
 * The credit option gives a really small but nice looking image link on bottom of the qrcode. If you don´t like it or don´t want to give me any credits you can deactivate it with 'credit = false'. But i will be glad if you let that small link where it is :D'
 
@@ -44,6 +47,9 @@ Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-gene
 
 == Changelog ==
 
+= 1.2.3 =
+
+* Wrap nice looking shadow border box around the qr code and the <3. Deactivate it with [qrcode shadow=false]
 
 = 1.2 =
 
@@ -84,6 +90,7 @@ This section describes how to install the plugin and get it working.
 
 1. Shows a example content site with the generated qr code
 2. Shows the using of the shortcode within the backend in wp-admin
+3. The QR Code with activated shadow
 
 == Author ==
 
