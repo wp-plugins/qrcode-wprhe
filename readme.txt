@@ -4,7 +4,7 @@ Donate link: http://www.free-qr-code.net
 Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
 Requires at least: 2.0.2
 Tested up to: 3.5
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,10 @@ Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-gene
 
 == Changelog ==
 
+= 1.2.4 = 
+
+* Just a minor update. Update not necessary
+
 = 1.2.3 =
 
 * Wrap nice looking shadow border box around the qr code and the <3. Deactivate it with [qrcode shadow=false]
@@ -70,7 +74,7 @@ Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-gene
 This section describes how to install the plugin and get it working.
 
 
-1. Unzip the file qrcode_wprhe.zip 
+1. Unzip the qr-code-generator file qrcode_wprhe.zip 
 2. Upload `qrcode_wprhe.php` to the directory `/wp-content/plugins/qrcode_wprhe/`
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Done
