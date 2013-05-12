@@ -3,7 +3,7 @@
 
 Plugin Name: qrcode_wprhe
 Plugin URI: http://www.free-qr-code.net/qr-code-wordpress-plugin.html
-Version: 1.2.3
+Version: 1.2.4
 Author: Rene Hermenau
 Author URI: http://www.free-qr-code.net
 Description: qrcode wordpress plugin to generate individual and URL relating qr codes within your wordpress articles
@@ -47,7 +47,7 @@ How to use it:
                 'shadow' => ''
                     ), $atts));
 
-    $current_uri = 'http://' . $_SERVER[HTTP_HOST] . $_SERVER[REQUEST_URI] . '';
+    $current_uri = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER[REQUEST_URI] . '';
 
     if (empty($content) && $content !== 0) {
         $content = urlencode($current_uri);
