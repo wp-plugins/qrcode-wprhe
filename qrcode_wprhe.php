@@ -3,7 +3,7 @@
 
 Plugin Name: qrcode_wprhe
 Plugin URI: http://www.free-qr-code.net/qr-code-wordpress-plugin.html
-Version: 1.2.4
+Version: 1.2.5
 Author: Rene Hermenau
 Author URI: http://www.free-qr-code.net
 Description: qrcode wordpress plugin to generate individual and URL relating qr codes within your wordpress articles
@@ -47,7 +47,7 @@ How to use it:
                 'shadow' => ''
                     ), $atts));
 
-    $current_uri = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER[REQUEST_URI] . '';
+    $current_uri = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '';
 
     if (empty($content) && $content !== 0) {
         $content = urlencode($current_uri);
@@ -82,13 +82,13 @@ How to use it:
 	}
         
         if (empty($credit) && $credit !=='false' or $credit == 'true') {
-	  $credit_footer='<br><a href="http://www.free-qr-code.net" target="blank" style="display:block;"><img src="' . plugins_url( $path, $plugin ) . '/qrcode-wprhe/made_with_love.png" border="0" alt="QR Code Generator"></a></div>';
+	  $credit_footer='<br><a href="http://www.free-qr-code.net" target="blank" style="display:block;"><img src="' . plugins_url( 'made_with_love.png', __FILE__ ) . '" border="0" alt="QR Code Generator"></a></div>';
 	} else {
-	  $credit_footer = "";
+	  $credit_footer = "</div>";
         }
 	
         if (empty($shadow) && $shadow =! false or $shadow == 'true') {
-	  $preoutput = '<div style="text-align:center;width:' . $size . 'px;border-radius: 3px;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);">';
+	  $preoutput = '<div style="text-align:center;width:' . $size . 'px;">';
 	} else {
 	  $preoutput = '<div style="text-align:center;width:' . $size . 'px;">';
 	}
