@@ -4,7 +4,7 @@ Donate link: http://www.free-qr-code.net
 Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
 Requires at least: 2.0.2
 Tested up to: 3.5
-Stable tag: 1.2.4
+Stable tag: 1.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.
 Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-generator") for a QR Code Generator with free tracking and scan statistics.
 
 == Changelog ==
+
+= 1.2.5 = 
+
+Fixed some php notices and missing </div>
 
 = 1.2.4 = 
 
