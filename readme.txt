@@ -43,7 +43,7 @@ How to use it:
 
 Look at [free-qr-code.net](http://www.free-qr-code.net/qr-code-wordpress-plugin.html "free-qr-code.net") for further information and for a easy useable qr code online generator.
 
-Try out  [qrcode-generator24.com](http://www.qrcode-generator24.com "qrcode-generator") for a QR Code Generator with free tracking and scan statistics.
+Try out  [qrcode-generator.com](http://www.qrcode-generator.com "qrcode-generator") for a QR Code Generator with free tracking and scan statistics.
 
 == Changelog ==
 
