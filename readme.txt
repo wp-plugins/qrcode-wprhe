@@ -1,4 +1,4 @@
-=== Contact Form 7 CSS ===
+=== QR Code Generator ===
 Contributors: ReneHermi
 Donate link: http://www.free-qr-code.net
 Tags: qr code, qrcode, qr code generator, qrcode generator, qr code shortcode, qrcode shortcode, barcode, scan, shortcode, image, page, links, widget, post, plugin, admin, posts, images, kaywa, visual qr code, color qr code 
