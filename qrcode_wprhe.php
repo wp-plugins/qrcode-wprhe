@@ -3,7 +3,7 @@
 
 Plugin Name: qrcode_wprhe
 Plugin URI: http://www.free-qr-code.net/qr-code-wordpress-plugin.html
-Version: 1.2.5
+Version: 1.2.7
 Author: Rene Hermenau
 Author URI: http://www.free-qr-code.net
 Description: qrcode wordpress plugin to generate individual and URL relating qr codes within your wordpress articles
@@ -24,15 +24,10 @@ How to use it:
     alt = "Scan the QR Code"
     size = 120
     class=""
-    credit = true
     shadow = true
-
-* The credit option gives a really small but nice looking image link on bottom of the qrcode. If you don´t like it or don´t want to give me any credits you can deactivate it with 'credit = false'. But i will be glad if you let that small link where it is :D'
- 
-* See http://www.free-qr-code.net/qr-code-wordpress-plugin.html for more info
-* I am very thankful if you give me credit and a backlink to http://www.free-qr-code.net
  
 */
+
 
 
 /* Shortcode  function */
@@ -43,7 +38,6 @@ How to use it:
                 'size' => '',
                 'align' => '',
 		'class' => '',
-                'credit' => '',
                 'shadow' => ''
                     ), $atts));
 
@@ -81,11 +75,8 @@ How to use it:
 	  $class = strip_tags(trim($class));
 	}
         
-        if (empty($credit) && $credit !=='false' or $credit == 'true') {
-	  $credit_footer='<br><a href="http://www.free-qr-code.net" target="blank" style="display:block;"><img src="' . plugins_url( 'made_with_love.png', __FILE__ ) . '" border="0" alt="QR Code Generator"></a></div>';
-	} else {
 	  $credit_footer = "</div>";
-        }
+
 	
         if (empty($shadow) && $shadow =! false or $shadow == 'true') {
 	  $preoutput = '<div style="text-align:center;width:' . $size . 'px;">';
