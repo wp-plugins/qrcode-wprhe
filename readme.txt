@@ -47,6 +47,9 @@ Try out  [qrcode-generator.com](http://www.qrcode-generator.com "qrcode-generato
 
 == Changelog ==
 
+= 1.2.7 =
+* Remove credit option
+
 = 1.2.5 = 
 
 Fixed some php notices and missing </div>
